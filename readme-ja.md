@@ -5,7 +5,7 @@
 ##1:Laravelプロジェクトの作成
 ```
 $ laravel new laravel-multi-auth-demo
-$ cd laravel new laravel-multi-auth-demo
+$ cd laravel-multi-auth-demo
 ```
 
 ##2:Laravelのバージョンチェック
