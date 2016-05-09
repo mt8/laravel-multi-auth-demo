@@ -116,7 +116,7 @@ $ php artisan route:list
 ```
 
 | Domain | Method   | URI                     | Name | Action                                                          | Middleware |
-|        |          |                         |      |                                                                 |            | 
+|--------|----------|-------------------------|------|-----------------------------------------------------------------|------------| 
 |        | GET/HEAD | /                       |      | Closure                                                         | web        |
 |        | GET/HEAD | home                    |      | App\Http\Controllers\HomeController@index                       | web,auth   |
 |        | GET/HEAD | login                   |      | App\Http\Controllers\Auth\AuthController@showLoginForm          | web,guest  |
